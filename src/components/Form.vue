@@ -55,7 +55,6 @@ export default {
       });
     },
     onTypeChange(value) {
-      console.log(this.formData);
       if (value === 'OUTCOME') {
         this.formData.value = -Math.abs(this.formData.value);
       } else {
