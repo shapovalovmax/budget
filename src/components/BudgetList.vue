@@ -60,7 +60,6 @@ export default {
       this.dialogVisible = false;
     },
     onFilterIn() {
-        // При кліку на кнопку "Only IN", приховати всі елементи списку, які не мають класу "income-item"
         const listItems = document.querySelectorAll('.list-item');
         listItems.forEach(item => {
           if (!item.classList.contains('income-item')) {
